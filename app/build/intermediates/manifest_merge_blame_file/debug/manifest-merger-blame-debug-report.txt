@@ -1,0 +1,425 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.avaya.android.vantage.devcala"
+4    android:versionCode="1"
+5    android:versionName="2.0_2_20200317_1550" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="22" />
+9-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:7:5-65
+12-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:8:5-71
+13-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:8:22-68
+14    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+14-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:10:5-68
+15-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+16-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:12:5-72
+17-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:12:22-69
+18    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+18-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:13:5-71
+18-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:13:22-69
+19    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+19-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:14:5-73
+19-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:14:22-70
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:15:5-80
+20-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:16:5-81
+21-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+22-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:17:5-88
+22-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:17:22-85
+23    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+23-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:18:5-90
+23-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:18:22-87
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:19:5-67
+24-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:19:22-65
+25    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+25-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:20:5-73
+25-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:20:22-71
+26    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+26-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:21:5-71
+26-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:21:22-68
+27
+28    <uses-feature android:name="android.hardware.usb.host" />
+28-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:30:5-62
+28-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:30:19-59
+29    <uses-feature android:name="android.hardware.touchscreen" />
+29-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:31:5-65
+29-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:31:19-62
+30    <uses-feature android:name="android.hardware.microphone" />
+30-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:32:5-64
+30-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:32:19-61
+31    <uses-feature android:name="android.hardware.screen.portrait" />
+31-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:33:5-69
+31-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:33:19-66
+32    <uses-feature
+32-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:34:5-36:36
+33        android:name="android.hardware.bluetooth"
+33-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:35:9-50
+34        android:required="false" />
+34-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:36:9-33
+35    <uses-feature
+35-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:37:5-39:36
+36        android:name="android.hardware.telephony"
+36-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:38:9-50
+37        android:required="false" />
+37-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:39:9-33
+38    <uses-feature
+38-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:40:5-42:36
+39        android:name="android.hardware.wifi"
+39-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:41:9-45
+40        android:required="false" />
+40-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:42:9-33
+41    <uses-feature
+41-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:43:5-45:36
+42        android:name="android.hardware.camera"
+42-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:44:9-47
+43        android:required="false" />
+43-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:45:9-33
+44    <uses-feature
+44-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:46:5-48:36
+45        android:name="android.hardware.camera.autofocus"
+45-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:47:9-57
+46        android:required="false" />
+46-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:48:9-33
+47
+48    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\1cd7a20e813a7d18df6557fa2fe9f211\AvayaClientServices\AndroidManifest.xml:12:5-79
+48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\1cd7a20e813a7d18df6557fa2fe9f211\AvayaClientServices\AndroidManifest.xml:12:22-76
+49    <uses-permission android:name="android.permission.DEVICE_POWER" />
+49-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\1cd7a20e813a7d18df6557fa2fe9f211\AvayaClientServices\AndroidManifest.xml:14:5-71
+49-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\1cd7a20e813a7d18df6557fa2fe9f211\AvayaClientServices\AndroidManifest.xml:14:22-68
+50
+51    <application
+51-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:50:5-204:19
+52        android:name="com.avaya.android.vantage.basic.ElanApplication"
+52-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:51:9-40
+53        android:allowBackup="true"
+53-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:52:9-35
+54        android:debuggable="true"
+55        android:hardwareAccelerated="true"
+55-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:58:9-43
+56        android:icon="@mipmap/ic_launcher"
+56-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:53:9-43
+57        android:label="@string/app_name"
+57-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:54:9-41
+58        android:supportsRtl="true"
+58-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:55:9-35
+59        android:testOnly="true"
+60        android:theme="@style/AppTheme" >
+60-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:56:9-40
+61        <meta-data
+61-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:59:9-61:87
+62            android:name="android.app.default_searchable"
+62-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:60:13-58
+63            android:value="com.avaya.android.vantage.basic.activities.MainActivity" />
+63-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:61:13-84
+64        <meta-data
+64-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:62:9-64:40
+65            android:name="AvayaClientServices"
+65-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:63:13-47
+66            android:value="273.0.10" />
+66-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:64:13-37
+67        <meta-data
+67-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:65:9-67:40
+68            android:name="audio.service.behavior"
+68-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:66:13-50
+69            android:value="override" />
+69-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:67:13-37
+70
+71        <activity
+71-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:69:9-111:20
+72            android:name="com.avaya.android.vantage.basic.activities.MainActivity"
+72-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:70:13-52
+73            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden"
+73-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:71:13-93
+74            android:label="@string/app_name"
+74-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:72:13-45
+75            android:launchMode="singleTask"
+75-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:73:13-44
+76            android:theme="@style/AppTheme.NoActionBar" >
+76-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:74:13-56
+77            <intent-filter android:priority="100" >
+77-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:75:13-80:29
+77-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:75:28-50
+78                <action android:name="android.intent.action.LOGIN_STATE_CHANGED" />
+78-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:76:17-84
+78-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:76:25-81
+79                <action android:name="com.avaya.endpoint.action.SERVICE_IMPACTING_CHANGE" />
+79-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:77:17-93
+79-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:77:25-90
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:79:17-77
+81-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:79:27-74
+82            </intent-filter>
+83            <intent-filter>
+83-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:81:13-87:29
+84                <action android:name="android.intent.action.CALL" />
+84-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:82:17-69
+84-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:82:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:84:17-76
+86-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:84:27-73
+87
+88                <data android:scheme="tel" />
+88-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:86:17-46
+88-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:86:23-43
+89            </intent-filter>
+90            <intent-filter>
+90-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:88:13-96:29
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:84:17-76
+91-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:84:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:90:17-78
+92-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:90:27-75
+93
+94                <action android:name="android.intent.action.VIEW" />
+94-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:92:17-69
+94-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:92:25-66
+95                <action android:name="android.intent.action.DIAL" />
+95-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:93:17-69
+95-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:93:25-66
+96
+97                <data android:scheme="tel" />
+97-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:86:17-46
+97-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:86:23-43
+98            </intent-filter>
+99            <intent-filter>
+99-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:97:13-99:29
+100                <action android:name="android.intent.action.SEARCH" />
+100-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:98:17-71
+100-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:98:25-68
+101            </intent-filter>
+102
+103            <meta-data
+103-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:100:13-102:54
+104                android:name="android.app.searchable"
+104-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:101:17-54
+105                android:resource="@xml/searchable" />
+105-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:102:17-51
+106
+107            <intent-filter>
+107-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:104:13-106:29
+108                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+108-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:105:17-90
+108-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:105:25-87
+109            </intent-filter>
+110            <intent-filter>
+110-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:107:13-109:29
+111                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+111-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:108:17-90
+111-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:108:25-87
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:112:9-114:72
+115            android:name="com.avaya.android.vantage.basic.activities.MainLegalActivity"
+115-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:113:13-57
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+116-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:114:13-69
+117        <activity
+117-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:115:9-117:64
+118            android:name="com.avaya.android.vantage.basic.activities.ErrorMessageActivity"
+118-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:116:13-60
+119            android:theme="@style/ErrorMessageActivityTheme" />
+119-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:117:13-61
+120        <activity
+120-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:118:9-120:56
+121            android:name="com.avaya.android.vantage.basic.activities.CallDialerActivity"
+121-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:119:13-58
+122            android:theme="@style/Theme.Transparent" />
+122-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:120:13-53
+123
+124        <service android:name="com.avaya.android.vantage.basic.notifications.NotificationService" />
+124-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:122:9-70
+124-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:122:18-67
+125        <service android:name="com.avaya.android.vantage.basic.services.BluetoothStateService" />
+125-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:124:9-66
+125-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:124:18-64
+126
+127        <activity
+127-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:126:9-130:51
+128            android:name="com.avaya.android.vantage.basic.activities.TutorialActivity"
+128-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:127:13-56
+129            android:label="@string/app_name"
+129-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:128:13-45
+130            android:screenOrientation="portrait"
+130-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:130:13-49
+131            android:theme="@style/AppTheme.NoActionBar" />
+131-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:129:13-56
+132        <activity
+132-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:131:9-134:58
+133            android:name="com.avaya.android.vantage.basic.activities.TutorialActivityK155"
+133-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:132:13-60
+134            android:label="@string/app_name"
+134-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:133:13-45
+135            android:theme="@style/AppTheme.NoActionBar" />
+135-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:134:13-56
+136        <activity
+136-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:135:9-139:72
+137            android:name="com.avaya.android.vantage.basic.activities.UserPreferencesActivity"
+137-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:136:13-63
+138            android:label="User preferences"
+138-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:137:13-45
+139            android:parentActivityName="com.avaya.android.vantage.basic.activities.MainActivity"
+139-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:138:13-66
+140            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+140-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:139:13-69
+141        <activity
+141-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:140:9-144:72
+142            android:name="com.avaya.android.vantage.basic.activities.SupportActivity"
+142-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:141:13-55
+143            android:label="Support"
+143-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:142:13-36
+144            android:parentActivityName="com.avaya.android.vantage.basic.activities.MainActivity"
+144-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:143:13-66
+145            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+145-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:144:13-69
+146
+147        <receiver android:name="com.avaya.android.vantage.basic.receiver.ConfigReceiver" >
+147-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:146:9-153:20
+147-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:146:19-58
+148            <intent-filter>
+148-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:147:13-152:29
+149                <action android:name="android.intent.action.BOOT_COMPLETED" />
+149-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:148:17-79
+149-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:148:25-76
+150                <action android:name="android.intent.action.LOGIN_STATE_CHANGED" />
+150-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:76:17-84
+150-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:76:25-81
+151                <action android:name="com.avaya.endpoint.SERVICE_STATE_CHANGE" />
+151-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:150:17-82
+151-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:150:25-79
+152                <action android:name="com.avaya.endpoint.REFRESH_HISTORY_ICON" />
+152-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:151:17-81
+152-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:151:25-79
+153            </intent-filter>
+154        </receiver>
+155        <receiver
+155-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:154:9-165:20
+156            android:name="com.avaya.deskphoneservices.DeskPhoneEventsBroadcastReceiver"
+156-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:155:13-88
+157            android:enabled="true" >
+157-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:156:13-35
+158            <intent-filter>
+158-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:158:13-164:29
+159                <action android:name="com.avaya.endpoint.action.CONFIG_CHANGED" />
+159-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:159:17-83
+159-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:159:25-80
+160                <action android:name="com.avaya.endpoint.action.RESTART" />
+160-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:160:17-76
+160-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:160:25-73
+161                <action android:name="com.avaya.endpoint.action.LOGIN_SIGNAL" />
+161-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:161:17-81
+161-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:161:25-78
+162                <action android:name="com.avaya.endpoint.action.LOGOUT_SIGNAL" />
+162-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:162:17-82
+162-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:162:25-79
+163                <action android:name="com.avaya.endpoint.action.MEDIA_BUTTON" />
+163-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:163:17-81
+163-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:163:25-78
+164            </intent-filter>
+165        </receiver>
+166        <receiver
+166-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:166:9-172:20
+167            android:name="com.avaya.android.vantage.basic.MidnightGoogleAnalyticsStatistics"
+167-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:167:13-62
+168            android:enabled="true" >
+168-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:168:13-35
+169            <intent-filter>
+169-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:169:13-171:29
+170                <action android:name="com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS" />
+170-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:170:17-87
+170-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:170:25-84
+171            </intent-filter>
+172        </receiver>
+173        <receiver android:name="com.avaya.android.vantage.basic.receiver.FinishCallDialerActivityReciver" >
+173-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:174:9-178:20
+173-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:174:19-75
+174            <intent-filter>
+174-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:175:13-177:29
+175                <action android:name="com.avaya.endpoint.FINISH_CALL_ACTIVITY" />
+175-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:176:17-82
+175-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:176:25-79
+176            </intent-filter>
+177        </receiver>
+178
+179        <provider
+179-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:180:9-188:20
+180            android:name="android.support.v4.content.FileProvider"
+180-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:181:13-67
+181            android:authorities="com.avaya.android.vantage.devcala.fileprovider"
+181-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:182:13-81
+182            android:exported="false"
+182-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:183:13-37
+183            android:grantUriPermissions="true" >
+183-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:184:13-47
+184            <meta-data
+184-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:185:13-187:54
+185                android:name="android.support.FILE_PROVIDER_PATHS"
+185-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:186:17-67
+186                android:resource="@xml/file_paths" />
+186-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:187:17-51
+187        </provider>
+188
+189        <activity
+189-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:190:9-198:20
+190            android:name="com.avaya.android.vantage.basic.activities.SplashActivity"
+190-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:191:13-54
+191            android:label="@string/app_name"
+191-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:192:13-45
+192            android:theme="@style/SplashTheme" >
+192-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:193:13-47
+193            <intent-filter android:priority="1000" >
+193-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:194:13-197:29
+193-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:194:28-51
+194                <action android:name="android.intent.action.MAIN" />
+194-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:195:17-69
+194-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:195:25-66
+195
+196                <category android:name="android.intent.category.LAUNCHER" />
+196-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:79:17-77
+196-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:79:27-74
+197            </intent-filter>
+198        </activity>
+199
+200        <service
+200-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:200:9-203:48
+201            android:name="com.avaya.android.vantage.basic.RingerService"
+201-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:201:13-42
+202            android:enabled="true"
+202-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:202:13-35
+203            android:exported="false" />
+203-->C:\Users\martinez71\StudioProjects\VBTTS_R2\app\src\main\AndroidManifest.xml:203:13-37
+204
+205        <meta-data
+205-->[com.android.support:design:25.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\6b488a5e54b9ea6eb3540d913f3ca6b6\design-25.4.0\AndroidManifest.xml:26:9-28:38
+206            android:name="android.support.VERSION"
+206-->[com.android.support:design:25.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\6b488a5e54b9ea6eb3540d913f3ca6b6\design-25.4.0\AndroidManifest.xml:27:13-51
+207            android:value="25.4.0" />
+207-->[com.android.support:design:25.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\6b488a5e54b9ea6eb3540d913f3ca6b6\design-25.4.0\AndroidManifest.xml:28:13-35
+208    </application>
+209
+210</manifest>

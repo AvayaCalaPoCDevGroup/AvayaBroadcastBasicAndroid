@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"2.0_2_20200317_1155","enabled":true,"outputFile":"Basic_2_20200317_1155-release.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.avaya.android.vantage.devcala","split":"","minSdkVersion":"23"}}]

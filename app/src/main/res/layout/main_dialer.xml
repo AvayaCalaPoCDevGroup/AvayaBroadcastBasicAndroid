@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialer_display_bg"
+    android:id="@+id/main_dialer_root">
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:id="@+id/display"
+        layout="@layout/dialer_display"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_alignParentTop="true" />
+
+    <include
+        android:id="@+id/keypad"
+        layout="@layout/dialpad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="107dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Subject:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/call_controls"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/call_controls"
+        android:text="TextView"
+        android:textSize="9sp" />
+
+    <LinearLayout
+        android:id="@+id/call_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keypad"
+        android:layout_alignStart="@+id/keypad"
+        android:layout_alignEnd="@+id/keypad"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:baselineAligned="false"
+        android:measureWithLargestChild="false"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/audioButton"
+            android:layout_width="154dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/audio_call_content_description"
+            android:src="@drawable/dialer_audio" />
+
+        <ImageButton
+            android:id="@+id/contact_item_call_video"
+            android:layout_width="154dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/video_call_content_description"
+            android:src="@drawable/dialer_video" />
+
+    </LinearLayout>
+
+</RelativeLayout>
